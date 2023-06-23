@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --black-light: #3f3d56;
+  --white: #ffffff;
+  --gray: #828282;
+  --white-gray: #eceff2;
+  --pink: #ee24ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--white);
+  text-align: center;
+}
+
+main {
+  max-width: 64rem;
+  margin: 4rem auto;
+}
+
+main img {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: var(--black-light);
+  font-family: 'Dosis', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 auto 1rem;
+  max-width: 30.875rem;
+}
+
+span {
+  color: var(--pink);
+  font-weight: bold;
+}
+
+main p {
+  color: var(--gray);
+  font-size: 0.9375rem;
+}
+
+main > p:first-of-type {
+  line-height: 1.375rem;
+  max-width: 33.75rem;
+  margin: 0 auto 2rem;
+}
+
+main p:nth-of-type(2) {
+  max-width: 39.125rem;
+  margin: 0 auto;
+}
+
+.strong {
+  color: var(--black-light);
+}
+
+.line {
+  width: 24.4375rem;
+  height: 0rem;
+  border: 1px solid var(--white-gray);
+  margin: auto;
+}
+
+nav {
+  margin: 1rem auto 2.55rem;
+}
+
+nav a {
+  color: var(--black-light);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:nth-child(-n + 2) {
+  margin-right: 2.63rem;
+}
+
+.wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
